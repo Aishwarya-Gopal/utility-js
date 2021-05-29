@@ -20,4 +20,9 @@ describe('Map', () => {
   it('Map of [1, 2, 3] and identity should give [1, 2, 3]', () => {
     expect(map([1, 2, 3], identity)).toEqual([1, 2, 3]);
   });
+
+  it('Map of [1, 2, 3] and identity should give [1, 2, 3]', () => {
+    obj = { x: 10 };
+    expect(map(obj, someObject => someObject.x + 1)).toEqual(11);
+  });
 });
