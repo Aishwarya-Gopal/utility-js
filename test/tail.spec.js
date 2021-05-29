@@ -6,6 +6,6 @@ describe('Tail', () => {
   });
 
   it('Tail of [] should be undefined', () => {
-    expect(tail([])).toBeUndefined();
+    expect(tail([])).toEqual([]);
   });
 });
