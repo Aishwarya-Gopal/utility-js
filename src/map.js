@@ -1,4 +1,7 @@
 const map = (list, method) => {
-  return method(list);
+  list.forEach(function(part, index, list) {
+    list[index] = method(list[index]);
+  })
+  return list;
 };
 module.exports = map;
