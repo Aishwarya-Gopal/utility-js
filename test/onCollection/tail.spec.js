@@ -1,4 +1,4 @@
-const tail = require('../src/tail');
+const tail = require('../../src/onCollection/tail');
 
 describe('Tail', () => {
   it('Tail of [1, 2, 3] should be 3', () => {

@@ -1,4 +1,4 @@
-const identity = require('../src/identity');
+const identity = require('../../src/onElement/identity');
 describe('Identity', () => {
   it('Identity of [] should give []', () => {
     expect(identity([])).toEqual([]);

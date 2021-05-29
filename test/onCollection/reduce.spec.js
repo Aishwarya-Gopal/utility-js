@@ -1,4 +1,4 @@
-const reduce = require('../src/reduce');
+const reduce = require('../../src/onCollection/reduce');
 
 describe('Reduce', () => {
   it('Reduce for [1, 2, 3] on (x,y)=>x+y should give 6', () => {

@@ -1,4 +1,4 @@
-const add = require('../src/add');
+const add = require('../../src/onElement/add');
 
 describe('Add', () => {
   it('Sum of 0 and 0 is 0', () => {

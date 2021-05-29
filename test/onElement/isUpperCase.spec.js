@@ -1,4 +1,4 @@
-const isUpperCase = require('../src/isUpperCase');
+const isUpperCase = require('../../src/onElement/isUpperCase');
 
 describe('IsUpperCase', () => {
   it('IsUpperCase for "A" is true', () => {

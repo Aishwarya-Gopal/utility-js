@@ -1,6 +1,6 @@
-const map = require('../src/map');
-const cube = require('../src/cube');
-const identity = require('../src/identity');
+const map = require('../../src/onCollection/map');
+const cube = require('../../src/onElement/cube');
+const identity = require('../../src/onElement/identity');
 
 describe('Map', () => {
   it('Map of [] and cube should give []', () => {

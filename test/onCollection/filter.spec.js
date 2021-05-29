@@ -1,5 +1,5 @@
-const filter = require('../src/filter');
-const isUpperCase = require('../src/isUpperCase');
+const filter = require('../../src/onCollection/filter');
+const isUpperCase = require('../../src/onElement/isUpperCase');
 
 describe('Filter', () => {
   it('Filter of [] and true should be []', () => {

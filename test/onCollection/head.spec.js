@@ -1,4 +1,4 @@
-const head = require('../src/head');
+const head = require('../../src/onCollection/head');
 
 describe('head', () => {
   it('Head of [1, 2, 3] should be 1', () => {

@@ -1,4 +1,4 @@
-const cube = require('../src/cube');
+const cube = require('../../src/onElement/cube');
 
 describe('Cube', () => {
   it('Cube of 1 should be 1', () => {
