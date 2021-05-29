@@ -1,4 +1,4 @@
-const identity = (list) => {
-  return [...list];
+const identity = (item) => {
+  return item;
 };
 module.exports = identity;
