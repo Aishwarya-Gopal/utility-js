@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "postinstall": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "eslint-plugin-import": "^2.23.3",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
+    "husky": "^6.0.0",
     "jest": "^26.4.2"
   }
 }
