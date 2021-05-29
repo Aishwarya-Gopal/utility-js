@@ -1,4 +1,4 @@
-const add = require('./add');
+const add = require('../src/add');
 
 describe('Add', () => {
 
