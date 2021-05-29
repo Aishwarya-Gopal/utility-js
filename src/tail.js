@@ -1,5 +1,4 @@
 const tail = (list) => {
-  if (list.length === 0) return [];
-  return list[list.length - 1];
+  return list.slice(1, list.length);
 };
 module.exports = tail;
