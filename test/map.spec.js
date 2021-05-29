@@ -16,7 +16,6 @@ describe('Map', () => {
   });
 
   it('Map of [{ x: 10 }] and someObject should give [11]', () => {
-    obj = [{ x: 10 }];
     expect(map([{ x: 10 }], someObject => someObject.x + 1)).toEqual([11]);
   });
 });
