@@ -1,10 +1,10 @@
-const reduce = (array, reducer, value = undefined) => {
-  if (typeof array[0] === 'number' && value === undefined) value = 0;
-  if (typeof array[0] === 'string' && value === undefined) value = '';
+const reduce = (array, reducer, accumulator = undefined) => {
+  if (typeof array[0] === 'number' && accumulator === undefined) accumulator = 0;
+  if (typeof array[0] === 'string' && accumulator === undefined) accumulator = '';
   array.forEach(function (item) {
-    value = reducer(value, item);
+    accumulator = reducer(accumulator, item);
   });
-  return value;
+  return accumulator;
 };
 
 module.exports = reduce;
